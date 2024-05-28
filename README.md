@@ -1,24 +1,34 @@
 # Project Phase 2: React Development
 
-Welcome to the second phase of your project! In this phase, you will be setting up a React application using Vite, developing a UI/UX based on a Figma design, and connecting the app to an API you created in the first phase.
+Welcome to the second phase of your project! In this phase, you will be setting up a React application, developing a UI/UX based on a Figma design, and connecting the app to an API you created in the first phase.
 
 ## Steps to Follow
 
-### 1. Installing React via Vite
+### 1. Clone the Repository and Install Dependencies
 
-First, you need to set up a React project using Vite. Follow these steps:
+First, you need to clone the provided repository and install the necessary dependencies. Follow these steps:
 
 1. Open your terminal.
-2. Run the following commands:
+2. Clone the repository:
 
    ```sh
-   npm create vite@latest
-   cd my-react-app
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
+
+3. Install the dependencies:
+
+   ```sh
    npm install
+   ```
+
+4. Start the development server:
+
+   ```sh
    npm run dev
    ```
 
-This will create a new React project and start the development server. You should see your new React application running in your browser.
+This will start the development server. You should see your React application running in your browser.
 
 ### 2. Develop the UI/UX from Figma Design
 
