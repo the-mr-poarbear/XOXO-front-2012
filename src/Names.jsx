@@ -1,3 +1,4 @@
+import './styles/names.css'
 
 
 function Names({player1 , player2 , wins }){
@@ -8,7 +9,7 @@ function Names({player1 , player2 , wins }){
         document.getElementById('whoWon').innerHTML = wins + " won"
     }
 
-    return <div className="d-flex justify-content-center flex-column align-items-center text-white">
+    return <div className="d-flex justify-content-center flex-column align-items-center text-white names">
         <h1>Tic-Tac-Toe</h1>
         <div className="d-flex justify-content-around">
             <h1 className="m-5 my-4">{player1} is X</h1>

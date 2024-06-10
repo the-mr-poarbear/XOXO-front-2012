@@ -5,7 +5,14 @@
     --red:#CB1111;
 }
 
+@font-face {
+    font-family: 'Bold';
+    font-weight: 700;
+    src: url('../assets/Poppins-Bold.ttf') ;
+       
+}
 
 .scores{
+    font-family: 'Bold';
     background-color: var(--primary);
 }

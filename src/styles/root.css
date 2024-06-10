@@ -5,9 +5,24 @@
     --red:#CB1111;
 }
 
+@font-face {
+    font-family: 'Bold';
+    font-weight: 700;
+    src: url('../assets/Poppins-Bold.ttf') ;
+       
+}
+
+@font-face {
+    font-family: 'Medium';
+    font-weight: 500;
+    src: url('../assets/Poppins-Medium.ttf') ;
+       
+}
+
 .root{
     background-color: var(--primary);
     height: 700px;
+    font-family: 'Bold';
 }
 
 .root h1{
@@ -19,6 +34,7 @@ button{
     border-radius: 30px;
     padding: 5px  100px;
     border: none;
+    font-family: 'Medium';
 }
 
 .startbtn{

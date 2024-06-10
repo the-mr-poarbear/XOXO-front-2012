@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Bold';
+    font-weight: 700;
+    src: url('../assets/Poppins-Bold.ttf') ;
+       
+}
+
+.names{
+    font-family: 'Bold';
+}
